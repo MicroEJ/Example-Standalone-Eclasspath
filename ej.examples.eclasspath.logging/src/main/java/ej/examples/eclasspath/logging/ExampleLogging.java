@@ -33,7 +33,7 @@ public class ExampleLogging {
 		logger.addHandler(new Handler() {
 			@Override
 			public void publish(LogRecord record) {
-				System.out.println("new handler:" + record.getMessage());
+				System.out.println("new handler: " + record.getMessage());
 			}
 
 			@Override
