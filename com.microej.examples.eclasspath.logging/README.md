@@ -11,7 +11,7 @@ This example prints some messages using the logger.
 
 ## Run on device
 ### Build
-1. Right Click on [ExampleLogging.java](com.microej.examples.eclasspath.logging/src/main/java/com.microej.examples/eclasspath/logging/ExampleLogging.java)
+1. Right Click on [ExampleLogging.java](com.microej.example.eclasspath.logging/src/main/java/com/microej/example/eclasspath/logging/ExampleLogging.java)
 1. Select **Run as -> Run Configuration**
 1. Select **MicroEJ Application** configuration kind
 1. Click on **New launch configuration** icon

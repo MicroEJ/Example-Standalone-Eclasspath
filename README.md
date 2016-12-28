@@ -15,4 +15,4 @@ Note that to run them on board:
 # Details
 ## logging
 **Available Examples**:
-* [com.microej.examples.eclasspath.logging](com.microej.examples.eclasspath.logging) : Writes in the logger.
+* [com.microej.example.eclasspath.logging](com.microej.example.eclasspath.logging) : Writes in the logger.
