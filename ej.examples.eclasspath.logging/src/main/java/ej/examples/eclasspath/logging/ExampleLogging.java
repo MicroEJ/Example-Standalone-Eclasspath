@@ -1,11 +1,10 @@
-/*
+/**
  * Java
  *
  * Copyright 2011-2016 IS2T. All rights reserved.
- * For demonstration purpose only.
- * IS2T PROPRIETARY. Use is subject to license terms.
+ * Use of this source code is subject to license terms.
  */
-package ej.examples.eclasspath.logging;
+package com.microej.examples.eclasspath.logging;
 
 import java.util.logging.Handler;
 import java.util.logging.Level;
@@ -18,7 +17,7 @@ import java.util.logging.Logger;
 public class ExampleLogging {
 
 	public static void main(String[] args) {
-		Logger logger = Logger.getLogger("ej.examples");
+		Logger logger = Logger.getLogger("com.microej.examples");
 		logger.setLevel(Level.WARNING);
 
 		logger.warning("Uses default handler.");
