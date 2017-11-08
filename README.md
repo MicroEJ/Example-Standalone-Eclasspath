@@ -16,3 +16,5 @@ Note that to run them on board:
 ## logging
 **Available Examples**:
 * [com.microej.examples.eclasspath.logging](com.microej.examples.eclasspath.logging) : Writes in the logger.
+* [com.microej.examples.eclasspath.formatter](com.microej.examples.eclasspath.formatter) :  Prints some messages using the formatter.
+
