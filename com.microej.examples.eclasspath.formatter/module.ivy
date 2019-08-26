@@ -1,12 +1,13 @@
 <!--
 	Ivy
 	
-	Copyright 2017 IS2T. All rights reserved.
-	IS2T PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
+	Copyright 2017-2019 MicroEJ Corp. All rights reserved.
+    For demonstration purpose only.
+    MicroEJ Corp. PROPRIETARY. Use is subject to license terms.
 -->
-<ivy-module version="2.0" xmlns:ea="http://www.easyant.org"> 
-	<info organisation="com.microej.examples.eclasspath" module="formatter" status="integration" revision="1.0.0">
-		<ea:build organisation="com.is2t.easyant.buildtypes" module="build-microej-javalib" revision="4.+">
+<ivy-module version="2.0" xmlns:ea="http://www.easyant.org" xmlns:m="http://ant.apache.org/ivy/extra" xmlns:ej="https://developer.microej.com" ej:version="2.0.0"> 
+	<info organisation="com.microej.examples.eclasspath" module="formatter" status="integration" revision="1.1.0">
+		<ea:build organisation="com.is2t.easyant.buildtypes" module="build-firmware-singleapp" revision="1.2.+">
 			<ea:property name="test.run.includes.pattern" value="**/_AllTests_*.class"/>
 		</ea:build>
 	</info>
@@ -29,17 +30,7 @@
 			Put MicroEJ API dependencies to the "provided->*" configuration
 			Other regular runtime dependencies are in the "default" configuration  
 		-->
-		<dependency conf="provided->*" org="ej.api" name="edc" rev="[1.2.0-RC0,2.0.0-RC0["/>
-		<dependency org="ej.library.eclasspath" name="formatter" rev="[2.0.0-RC0,3.0.0-RC0["/>
-		
-		<!-- 
-			Put your project dependencies here. An example of project dependency declaration 
-			is provided below:
-			
-			<dependency org="[org]" name="[otherArtifact]" rev="[M.m.p-RC0,(M+1).0.0-RC0["/>
-		-->
-		<dependency conf="test->*" org="ej.library.test" name="junit" rev="[1.0.0-RC0,2.0.0-RC0["/>
-		
-		
+		<dependency conf="provided->*" org="ej.api" name="edc" rev="1.2.3"/>
+		<dependency org="ej.library.eclasspath" name="formatter" rev="2.1.0"/>		
 	</dependencies>
 </ivy-module>

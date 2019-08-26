@@ -1,8 +1,9 @@
 /*
  * Java
  *
- * Copyright 2017 IS2T. All rights reserved.
- * IS2T PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
+ * Copyright 2017-2019 MicroEJ Corp. All rights reserved.
+ * For demonstration purpose only.
+ * MicroEJ Corp. PROPRIETARY. Use is subject to license terms.
  */
 package com.microej.examples.eclasspath.formatter;
 
