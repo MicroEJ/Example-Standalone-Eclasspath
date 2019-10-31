@@ -1,6 +1,6 @@
 # Overview
 
-This example prints some messages using the logger.
+This example prints some messages using the formatter.
 
 # Usage
 
